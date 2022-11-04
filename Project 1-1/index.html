@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap 5 Website Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+	<style>
+		.fakeimg {
+			height: 200px;
+			background: #aaa;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="p-5 bg-primary text-white text-center">
+		<h1>Web site project</h1>
+		<p>CIS164-32075-LEC</p>
+	</div>
+
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<div class="container-fluid">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">Active</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-sm-4">
+				<h2>About Me</h2>
+				<h5>My name is Arnold Ayala</h5>
+				<p>I'm a student at Cerritos learing programming. My hobbies are drawing digital art and playing video games. I like videogames so much that I want to make my own. So I have been working on one with my freiends.</p>
+				<h3 class="mt-4">Some Links</h3>
+				<ul class="nav nav-pills flex-column">
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Active</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">Disabled</a>
+					</li>
+				</ul>
+				<hr class="d-sm-none">
+			</div>
+			<div class="col-sm-8">
+				<h2>CIS164</h2>
+				<h5>Class description</h5>
+				<p>This course covers client-side Web scripting using JavaScript and other Web page development tools. It covers the programming techniques of JavaScript useful to Web designers. Students will learn to create interactive and dynamic Web pages.</p>
+				<p></p>
+
+				<h1>Income Tax Calculator</h1>
+				<div>
+					<label>Enter taxable income:</label>
+					<input type="text" id="income" />
+					<input type="button" value="Calculate" name="calculate" id="calculate" />
+				</div>
+				<div>
+					<label>Income tax owed:</label>
+					<input type="text" id="tax" disabled>
+				</div>
+				<script src="calculate_tax.js"></script>
+			</div>
+		</div>
+	</div>
+
+	<div class="mt-5 p-4 bg-dark text-white text-center">
+		<p>Footer</p>
+	</div>
+
+</body>
+</html>
